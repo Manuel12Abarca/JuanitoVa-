@@ -93,17 +93,17 @@ if(isset($_POST['update'])){
       <span>update category</span>
       <select name="category" class="box" required>
          <option selected value="<?= $fetch_products['category']; ?>"><?= $fetch_products['category']; ?></option>
-         <option value="Alergias">Alergias</option>
-         <option value="Gripe">Gripe y tos</option>
-         <option value="piel">Piel</option>
-         <option value="bucal">Salud bucal</option>
-         <option value="cuidado capilar">Cuidado Capilar</option>
-         <option value="venta libre">Venta Libre</option>
-         <option value="sexual">Sexual</option>
-         <option value="analgesicos">Analgesicos</option>
-         <option value="suplemento">Suplementos</option>
-         <option value="estomacales">Estomacales</option>
-         <option value="herramienta">Herramienta</option>
+         <option value="Herramientas">Herramientas</option>
+         <option value="Construcción">Construcción</option>
+         <option value="Pintura">Pintura</option>
+         <option value="Electricidad">Electricidad</option>
+         <option value="Fontanería">Fontanería</option>
+         <option value="Jardinería">Jardinería</option>
+         <option value="Ferretería General">Ferretería General</option>
+         <option value="Iluminación">Iluminación</option>
+         <option value="Adhesivos y Selladores">Adhesivos y Selladores</option>
+         <option value="Seguridad">Seguridad</option>
+         <option value="Automotriz">Automotriz</option>
 
       </select>
       <span>update image</span>

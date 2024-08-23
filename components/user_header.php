@@ -22,8 +22,6 @@ if(isset($message)){
          <a href="menu.php">Medicamentos</a>
          <a href="orders.php">Tus Ordenes</a>
          <a href="contact.php">Contacto</a>
-         <a href="../JuanitoVa!-English\home.php">EN</a>
-         <a href="..\JuanitoVa!\home.php">ES</a>
       </nav>
 
       <div class="icons">
