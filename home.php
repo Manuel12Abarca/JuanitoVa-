@@ -89,52 +89,53 @@ include 'components/add_cart.php';
    </section>
 
    <section class="category">
-      <h1 class="title">Categorias</h1>
-      <div class="carousel-container">
-         <div class="carousel">
-            <a href="category.php?category=alergias" class="box">
-               <img src="images/cat-1.png" alt="">
-               <h3>Alergias</h3>
-            </a>
-            <a href="category.php?category=gripe" class="box">
-               <img src="images/cat-2.png" alt="">
-               <h3>Gripe y tos</h3>
-            </a>
-            <a href="category.php?category=piel" class="box">
-               <img src="images/cat-3.png" alt="">
-               <h3>Piel</h3>
-            </a>
-            <a href="category.php?category=bucal" class="box">
-               <img src="images/cat-4.png" alt="">
-               <h3>Salud bucal y visual</h3>
-            </a>
-            <a href="category.php?category=cuidado capilar" class="box">
-               <img src="images/cat-5.png" alt="">
-               <h3>Cuidado Capilar</h3>
-            </a>
-            <a href="category.php?category=venta libre" class="box">
-               <img src="images/cat-6.png" alt="">
-               <h3>Venta Libre</h3>
-            </a>
-            <a href="category.php?category=sexual" class="box">
-               <img src="images/cat-7.png" alt="">
-               <h3>Sexual</h3>
-            </a>
-            <a href="category.php?category=analgesicos" class="box">
-               <img src="images/cat-8.png" alt="">
-               <h3>Analgésicos</h3>
-            </a>
-            <a href="category.php?category=suplemento" class="box">
-               <img src="images/cat-9.png" alt="">
-               <h3>Suplementos</h3>
-            </a>
-            <a href="category.php?category=estomacales" class="box">
-               <img src="images/cat-10.png" alt="">
-               <h3>Estomacales</h3>
-            </a>
-         </div>
+   <h1 class="title">Categorías</h1>
+   <div class="carousel-container">
+      <div class="carousel">
+         <a href="category.php?category=construccion" class="box">
+            <img src="images/cat-1.png" alt="">
+            <h3>Construcción</h3>
+         </a>
+         <a href="category.php?category=electricidad" class="box">
+            <img src="images/cat-2.png" alt="">
+            <h3>Electricidad</h3>
+         </a>
+         <a href="category.php?category=pintura" class="box">
+            <img src="images/cat-3.png" alt="">
+            <h3>Pintura</h3>
+         </a>
+         <a href="category.php?category=fontaneria" class="box">
+            <img src="images/cat-4.png" alt="">
+            <h3>Fontanería</h3>
+         </a>
+         <a href="category.php?category=herramientas" class="box">
+            <img src="images/cat-5.png" alt="">
+            <h3>Herramientas</h3>
+         </a>
+         <a href="category.php?category=ferreteria" class="box">
+            <img src="images/cat-6.png" alt="">
+            <h3>Ferretería en general</h3>
+         </a>
+         <a href="category.php?category=jardineria" class="box">
+            <img src="images/cat-7.png" alt="">
+            <h3>Jardinería</h3>
+         </a>
+         <a href="category.php?category=iluminacion" class="box">
+            <img src="images/cat-8.png" alt="">
+            <h3>Iluminación</h3>
+         </a>
+         <a href="category.php?category=proteccion" class="box">
+            <img src="images/cat-9.png" alt="">
+            <h3>Protección y Seguridad</h3>
+         </a>
+         <a href="category.php?category=automotriz" class="box">
+            <img src="images/cat-10.png" alt="">
+            <h3>Automotriz</h3>
+         </a>
       </div>
-   </section>
+   </div>
+</section>
+
    <script>
       $(document).ready(function() {
          $(".carousel").slick({

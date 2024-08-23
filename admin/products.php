@@ -92,7 +92,6 @@ if(isset($_GET['delete'])){
       <input type="text" required placeholder="nombre del medicamento" name="name" maxlength="100" class="box">
       <input type="number" min="0" max="9999999999" required placeholder="precio" name="price" step="any" onkeypress="if(this.value.length == 10) return false;" class="box">
       <select name="category" class="box" required>
-      <option selected value="<?= $fetch_products['category']; ?>"><?= $fetch_products['category']; ?></option>
          <option value="Herramientas">Herramientas</option>
          <option value="Construcción">Construcción</option>
          <option value="Pintura">Pintura</option>
